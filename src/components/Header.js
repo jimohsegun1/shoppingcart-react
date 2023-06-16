@@ -62,7 +62,7 @@ const Header = () => {
                       />
                       <div className="cartItemDetail">
                         <span>{prod.name}</span>
-                        <span> &#8358 {prod.price.split(".")[0]}</span>
+                        <span> &#8358; {prod.price.split(".")[0]}</span>
                       </div>
                       <AiFillDelete
                         fontSize="20px"
